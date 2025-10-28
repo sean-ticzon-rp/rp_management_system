@@ -4,7 +4,6 @@ import { Bindings } from './types';
 import auth from './routes/auth';
 import users from './routes/users';
 import files from './routes/files';
-
 const app = new Hono<{ Bindings: Bindings }>();
 
 // CORS middleware
