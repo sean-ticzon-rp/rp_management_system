@@ -31,3 +31,10 @@ lerna-debug.log*
 
 # misc
 .DS_Store
+
+
+# cloudflare workers
+.cloudflare/
+.workers_dev/
+
+.dev.vars
